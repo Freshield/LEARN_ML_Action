@@ -33,7 +33,6 @@ def splitDataSet(dataSet, axis, value):
             reduceFeatVec.extend(featVec[axis+1:])
             retDataSet.append(reduceFeatVec)
 
-
     return retDataSet
 
 
