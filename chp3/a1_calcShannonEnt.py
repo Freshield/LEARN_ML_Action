@@ -20,6 +20,7 @@ from math import log
 def calcShannonEnt(dataSet):
     # 一共有多少数据
     numEntries = len(dataSet)
+    # 得到label的数量字典
     labelCounts = {}
     for featVec in dataSet:
         currentLabel = featVec[-1]
@@ -27,6 +28,7 @@ def calcShannonEnt(dataSet):
             labelCounts[currentLabel] = 0
         labelCounts[currentLabel] += 1
 
+    # 计算熵
     shannonEnt = 0.0
     for key in labelCounts:
         prob = float(labelCounts[key]) / numEntries
