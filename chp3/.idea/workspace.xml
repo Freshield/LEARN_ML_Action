@@ -19,6 +19,7 @@
     <SUITE FILE_PATH="coverage/chp3$a9_getTreeDepth.coverage" NAME="a9_getTreeDepth Coverage Results" MODIFIED="1584178317264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp3$a1_calcShannonEnt.coverage" NAME="a1_calcShannonEnt Coverage Results" MODIFIED="1574748306349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp3$a8_getNumLeafs.coverage" NAME="a8_getNumLeafs Coverage Results" MODIFIED="1584178314866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp3$a10_plotTree.coverage" NAME="a10_plotTree Coverage Results" MODIFIED="1575367242393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -152,8 +153,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a9_getTreeDepth">
-    <configuration name="a4_chooseBestFeatureToSplit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.a10_plotTree">
+    <configuration name="a10_plotTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,7 +167,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a4_chooseBestFeatureToSplit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a10_plotTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a10_plotTree" />
         <item itemvalue="Python.a9_getTreeDepth" />
         <item itemvalue="Python.a8_getNumLeafs" />
         <item itemvalue="Python.a6_createTree" />
         <item itemvalue="Python.a7_treePlotter" />
-        <item itemvalue="Python.a4_chooseBestFeatureToSplit" />
       </list>
     </recent_temporary>
   </component>
