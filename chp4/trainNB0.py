@@ -31,10 +31,11 @@ def trainNB0(trainMatrix, trainCategory):
     pAbusive = sum(trainCategory)/float(numTrainDocs)
     # 初始化数值
     # (32,)
-    p0Num = zeros(numWords)
-    p1Num = zeros(numWords)
-    p0Denom = 0.
-    p1Denom = 0.
+    # 为了解决乘0问题, 初始化为1和2
+    p0Num = ones(numWords)
+    p1Num = ones(numWords)
+    p0Denom = 2.
+    p1Denom = 2.
 
     # 遍历每个训练集
     for i in range(numTrainDocs):
@@ -51,8 +52,9 @@ def trainNB0(trainMatrix, trainCategory):
             # 分母加上本条数据出现的字符数量
             p0Denom += sum(trainMatrix[i])
     # 相应字符在相应类别中出现的概率
-    p1Vect = p1Num/p1Denom
-    p0Vect = p0Num/p0Denom
+    # 为了解决下溢出的问题, 这里使用log
+    p1Vect = log(p1Num/p1Denom)
+    p0Vect = log(p0Num/p0Denom)
 
     return p0Vect, p1Vect, pAbusive
 
@@ -77,5 +79,7 @@ if __name__ == '__main__':
     print(len(p0V))
     print(len(p1V))
     print(pAb)
+    print(p0V)
+    print(p1V)
     print(sum(p0V))
     print(sum(p1V))
