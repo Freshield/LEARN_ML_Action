@@ -23,3 +23,4 @@ def bagOfWords2Vec(vocabList, inputSet):
             returnVec[vocabList.index(word)] += 1
 
     return returnVec
+
