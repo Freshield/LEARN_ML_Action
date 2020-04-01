@@ -21,6 +21,7 @@ from bayes import createVocabList, setOfWords2Vec
 from trainNB0 import trainNB0
 from testNB import classifyNB
 import traceback
+from bagOfWords2Vec import bagOfWords2Vec
 
 
 def textParse(bigString):
