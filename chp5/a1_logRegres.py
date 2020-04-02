@@ -31,7 +31,11 @@ def loadDataSet():
 
 
 def sigmoid(inX):
-    return 1.0 / (1+np.exp(-inX))
+    # return 1.0 / (1+np.exp(-inX))
+    if inX >= 0:  # 对sigmoid函数的优化，避免了出现极大的数据溢出
+        return 1.0 / (1 + np.exp(-inX))
+    else:
+        return np.exp(inX) / (1 + np.exp(inX))
 
 
 def gradAscent(dataMatIn, classLabels):
@@ -75,7 +79,7 @@ def stocGradAscent1(dataMatrix, classLabels, numIter=150):
     for j in range(numIter):
         dataIndex = list(range(m))
         for i in range(m):
-            alpha = 4 / (1.0+j+i) + 0.01
+            alpha = 4 / (1.0+j+i) + 0.0001
             randIndex = int(random.uniform(0, len(dataIndex)))
             h = sigmoid(sum(dataMatrix[randIndex] * weights))
             error = classLabels[randIndex] - h
