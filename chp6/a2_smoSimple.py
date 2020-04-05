@@ -41,7 +41,7 @@ def smoSimple(dataMatIn, classLabels, C, toler, maxIter):
     a2new = a2old + (y2(E1 - E2)) / eta
     a1new = a1old + y1*y2*(a2old - a2new)
     b1 = b-Ei-yi*(ai-aiold)*<xi, xi> - yj*(aj-ajold)*<xi,xj>
-    b2 = b-Ej-yi*(ai-aiold)*<xi, xj> - yj*(aj-ajold)*<xi,xi>
+    b2 = b-Ej-yi*(ai-aiold)*<xi, xj> - yj*(aj-ajold)*<xj,xj>
     b = {b1: if 0<ai<C, b2: if 0<aj<C, (b1+b2)/2: other}
 
     KKT条件
@@ -164,7 +164,7 @@ def smoSimple(dataMatIn, classLabels, C, toler, maxIter):
 
                 # 10. 更新b
                 # b1 = b-Ei-yi*(ai-aiold)*<xi, xi> - yj*(aj-ajold)*<xi,xj>
-                # b2 = b-Ej-yi*(ai-aiold)*<xi, xj> - yj*(aj-ajold)*<xi,xi>
+                # b2 = b-Ej-yi*(ai-aiold)*<xi, xj> - yj*(aj-ajold)*<xj,xj>
                 # b = {b1: if 0<ai<C, b2: if 0<aj<C, (b1+b2)/2: other}
                 b1 = b - Ei - \
                      labelMat[i] * (alphas[i] - alphaIold) * dataMatrix[i, :] * dataMatrix[i, :].T - \
