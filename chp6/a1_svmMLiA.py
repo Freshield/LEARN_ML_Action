@@ -35,9 +35,7 @@ def selectJrand(i, m):
     # i为alpha的下标, m为alpha的数目
     j = i
     while j == i:
-        print(j)
         j = int(random.uniform(0, m))
-        print(j)
 
     return j
 
