@@ -2,9 +2,9 @@
 """
 @Author: Freshield
 @Contact: yangyufresh@163.com
-@File: a5_smoP.py
-@Time: 2020-04-07 17:53
-@Last_update: 2020-04-07 17:53
+@File: a8_smoK.py
+@Time: 2020-04-09 13:36
+@Last_update: 2020-04-09 13:36
 @Desc: None
 @==============================================@
 @      _____             _   _     _   _       @
@@ -15,12 +15,12 @@
 @==============================================@
 """
 import numpy as np
-from a3_full_smo_support import optStruct
-from a4_innerL import innerL
+from a6_kernelTrans import optStruct
+from a7_kernel_func import innerL
 
 
 def smoP(dataMatIn, classLabels, C, toler, maxIter, kTup=('lin', 0)):
-    oS = optStruct(np.mat(dataMatIn), np.mat(classLabels).transpose(), C, toler)
+    oS = optStruct(np.mat(dataMatIn), np.mat(classLabels).transpose(), C, toler, kTup)
     iter = 0
     entireSet = True
     alphaPairsChanged = 0
@@ -50,28 +50,29 @@ def smoP(dataMatIn, classLabels, C, toler, maxIter, kTup=('lin', 0)):
     return oS.b, oS.alphas
 
 
-def calcWs(alphas, dataArr, classLabels):
-    """
-    W = sum ai * yi * xi
-    """
-    X = np.mat(dataArr)
-    labelMat = np.mat(classLabels).transpose()
-    m, n = np.shape(X)
-    w = np.zeros((n, 1))
-    for i in range(m):
-        w += np.multiply(alphas[i] * labelMat[i], X[i, :].T)
-
-    return w
-
-
 if __name__ == '__main__':
     data_path = 'data/Ch06/testSet.txt'
     from a1_svmMLiA import loadDataSet
+    from a6_kernelTrans import kernelTrans
 
     dataMat, labelMat = loadDataSet(data_path)
-    b, alphas = smoP(dataMat, labelMat, C=0.6, toler=0.001, maxIter=40)
-    ws = calcWs(alphas, dataMat, labelMat)
-    print(ws)
+    b, alphas = smoP(dataMat, labelMat, C=0.6, toler=0.001, maxIter=40, kTup=('rbf', 1.3))
+    datMat = np.mat(dataMat)
+    labelMat = np.mat(labelMat).transpose()
+    # 得到alphas中非零部分，也就是支持向量
+    svInd = np.nonzero(alphas.A > 0)[0]
+    # 得到数据中的支持向量
+    # k, n
+    sVs = datMat[svInd]
+    # k
+    labelSV = labelMat[svInd]
+    print('there are %d Support Vectors' % np.shape(sVs)[0])
+    m, n = np.shape(datMat)
+    i = 1
+    # 进行核化
+    kernelEval = kernelTrans(sVs, datMat[i, :], ('rbf', 1.3))
+    # ki * yi * alpha + b
+    predict = kernelEval.T * np.multiply(labelSV, alphas[svInd]) + b
 
-    print(dataMat[2]*np.mat(ws) + b)
-    print(labelMat[2])
+    print(predict)
+    print(labelMat[i])
