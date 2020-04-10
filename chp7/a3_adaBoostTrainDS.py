@@ -54,7 +54,7 @@ def adaBoostTrainDS(dataArr, classLabels, numIt=40):
         # print('aggClassEst: ', aggClassEst.T)
         aggError = multiply(sign(aggClassEst) != mat(classLabels).T, ones((m, 1)))
         errorRate = aggError.sum() / m
-        # print('total error: ', errorRate, '\n')
+        print('total error: ', errorRate, '\n')
         if errorRate == 0.0:
             break
 

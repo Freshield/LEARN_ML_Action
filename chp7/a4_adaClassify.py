@@ -27,7 +27,7 @@ def adaClassify(datToClass, classifierArr):
                                  classifierArr[i]['thresh'],
                                  classifierArr[i]['ineq'])
         aggClassEst += classifierArr[i]['alpha'] * classEst
-        print(aggClassEst)
+        # print(aggClassEst)
 
     return sign(aggClassEst)
 
