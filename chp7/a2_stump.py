@@ -65,8 +65,8 @@ def buildStump(dataArr, classLabels, D):
                 errArr = mat(ones((m, 1)))
                 errArr[predictedVals == labelMat] = 0
                 weightedError = D.T * errArr
-                print('split: dim %d, thresh %.2f, thresh inequal: %s, the weighted error is %.3f' % (
-                    i, threshVal, inequal, weightedError))
+                # print('split: dim %d, thresh %.2f, thresh inequal: %s, the weighted error is %.3f' % (
+                #     i, threshVal, inequal, weightedError))
 
                 if weightedError < minError:
                     minError = weightedError
@@ -75,8 +75,8 @@ def buildStump(dataArr, classLabels, D):
                     bestStump['thresh'] = threshVal
                     bestStump['ineq'] = inequal
 
-    print('bestone: split: dim %d, thresh %.2f, thresh inequal: %s, the weighted error is %.3f' % (
-        bestStump['dim'], bestStump['thresh'], bestStump['ineq'], minError))
+    # print('bestone: split: dim %d, thresh %.2f, thresh inequal: %s, the weighted error is %.3f' % (
+    #     bestStump['dim'], bestStump['thresh'], bestStump['ineq'], minError))
 
     return bestStump, minError, bestClasEst
 
