@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b3ad1d-9513-48e9-86d4-1d548ad5b175" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../example" beforeDir="false" afterPath="$PROJECT_DIR$/../example" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/chp7$a5_loadDataSet.coverage" NAME="a5_loadDataSet Coverage Results" MODIFIED="1586513417719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp7$a4_adaClassify.coverage" NAME="a4_adaClassify Coverage Results" MODIFIED="1586512509487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp7$a2_stump.coverage" NAME="a2_stump Coverage Results" MODIFIED="1586505309947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp7$a3_adaBoostTrainDS.coverage" NAME="a3_adaBoostTrainDS Coverage Results" MODIFIED="1586509113378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -21,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/a1_loadSimpData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="30" />
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -29,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a2_stump.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="78" column="20" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="78" selection-end-column="20" />
+            <state relative-caret-position="-448">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -38,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a3_adaBoostTrainDS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state relative-caret-position="-440">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#510#529#0" expanded="true" />
               </folding>
@@ -47,14 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a4_adaClassify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="212">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#506#525#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a5_loadDataSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -76,8 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/a1_loadSimpData.py" />
         <option value="$PROJECT_DIR$/a2_stump.py" />
-        <option value="$PROJECT_DIR$/a3_adaBoostTrainDS.py" />
         <option value="$PROJECT_DIR$/a4_adaClassify.py" />
+        <option value="$PROJECT_DIR$/a3_adaBoostTrainDS.py" />
+        <option value="$PROJECT_DIR$/a5_loadDataSet.py" />
       </list>
     </option>
   </component>
@@ -111,8 +124,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a4_adaClassify">
+  <component name="RunManager" selected="Python.a5_loadDataSet">
     <configuration name="a2_stump" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +212,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a5_loadDataSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chp7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a5_loadDataSet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a5_loadDataSet" />
         <item itemvalue="Python.a4_adaClassify" />
         <item itemvalue="Python.a3_adaBoostTrainDS" />
         <item itemvalue="Python.a2_stump" />
@@ -212,17 +254,18 @@
       <option name="presentableId" value="Default" />
       <updated>1586497923844</updated>
       <workItem from="1586497924918" duration="2036000" />
-      <workItem from="1586503764486" duration="7630000" />
+      <workItem from="1586503764486" duration="8512000" />
+      <workItem from="1586770841330" duration="1589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9666000" />
+    <option name="totallyTimeSpent" value="12137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="402" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2556724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,7 +279,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -249,24 +292,29 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a2_stump.py">
+    <entry file="file://$PROJECT_DIR$/data/horseColicTest2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="78" column="20" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="78" selection-end-column="20" />
-        </state>
+        <state relative-caret-position="-528" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a1_loadSimpData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="30" />
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a2_stump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a3_adaBoostTrainDS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state relative-caret-position="-440">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="e#510#529#0" expanded="true" />
           </folding>
@@ -275,11 +323,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a4_adaClassify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="212">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#506#525#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a5_loadDataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
         </state>
       </provider>
     </entry>
