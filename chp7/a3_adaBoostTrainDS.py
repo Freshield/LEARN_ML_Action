@@ -58,7 +58,7 @@ def adaBoostTrainDS(dataArr, classLabels, numIt=40):
         if errorRate == 0.0:
             break
 
-    return weakClassArr
+    return weakClassArr, aggClassEst
 
 
 if __name__ == '__main__':
