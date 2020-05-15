@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d662c7a-5895-4a46-9fc0-4e308ed7a2f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/chp8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chp8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a5_ridgeRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/a5_ridgeRegres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../example" beforeDir="false" afterPath="$PROJECT_DIR$/../example" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,23 +13,45 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chp8$a1_loadDataSet.coverage" NAME="a1_loadDataSet Coverage Results" MODIFIED="1589447800764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp8$a5_ridgeRegres.coverage" NAME="a5_ridgeRegres Coverage Results" MODIFIED="1589467508700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp8$a7_searchForSet.coverage" NAME="a7_searchForSet Coverage Results" MODIFIED="1589513045592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp8$a5_ridgeRegres.coverage" NAME="a5_ridgeRegres Coverage Results" MODIFIED="1589526517627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp8$a7_searchForSet.coverage" NAME="a7_searchForSet Coverage Results" MODIFIED="1589526536330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a3_lwlr.coverage" NAME="a3_lwlr Coverage Results" MODIFIED="1589451488098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a2_standRegres.coverage" NAME="a2_standRegres Coverage Results" MODIFIED="1589448488471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a6_stageWise.coverage" NAME="a6_stageWise Coverage Results" MODIFIED="1589511591291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a4_abalone.coverage" NAME="a4_abalone Coverage Results" MODIFIED="1589465358862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp8$a8_crossValidation.coverage" NAME="a8_crossValidation Coverage Results" MODIFIED="1589526701797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a7_searchForSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="264">
+              <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="27" />
               <folding>
                 <element signature="e#508#518#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a8_crossValidation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-29">
+              <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+              <folding>
+                <element signature="e#511#524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a5_ridgeRegres.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,9 +80,10 @@
         <option value="$PROJECT_DIR$/a2_standRegres.py" />
         <option value="$PROJECT_DIR$/a3_lwlr.py" />
         <option value="$PROJECT_DIR$/a4_abalone.py" />
-        <option value="$PROJECT_DIR$/a5_ridgeRegres.py" />
         <option value="$PROJECT_DIR$/a6_stageWise.py" />
         <option value="$PROJECT_DIR$/a7_searchForSet.py" />
+        <option value="$PROJECT_DIR$/a8_crossValidation.py" />
+        <option value="$PROJECT_DIR$/a5_ridgeRegres.py" />
       </list>
     </option>
   </component>
@@ -86,17 +107,6 @@
             <path>
               <item name="chp8" type="b2602c69:ProjectViewProjectNode" />
               <item name="chp8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chp8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chp8" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chp8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chp8" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="setHtml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,29 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a7_searchForSet">
-    <configuration name="a3_lwlr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="chp8" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a3_lwlr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.a8_crossValidation">
     <configuration name="a4_abalone" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="chp8" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,13 +223,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a8_crossValidation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chp8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a8_crossValidation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a8_crossValidation" />
         <item itemvalue="Python.a7_searchForSet" />
-        <item itemvalue="Python.a6_stageWise" />
         <item itemvalue="Python.a5_ridgeRegres" />
+        <item itemvalue="Python.a6_stageWise" />
         <item itemvalue="Python.a4_abalone" />
-        <item itemvalue="Python.a3_lwlr" />
       </list>
     </recent_temporary>
   </component>
@@ -258,12 +268,12 @@
       <workItem from="1589446502869" duration="4324000" />
       <workItem from="1589464944091" duration="2357000" />
       <workItem from="1589508267217" duration="15000" />
-      <workItem from="1589508811174" duration="4322000" />
+      <workItem from="1589508811174" duration="9423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11018000" />
+    <option name="totallyTimeSpent" value="16119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
@@ -343,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a5_ridgeRegres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="54" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/setHtml/lego8288.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -366,12 +369,36 @@
     <entry file="file://$PROJECT_DIR$/data/setHtml/lego10030.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/a7_searchForSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="264">
+          <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="27" />
           <folding>
             <element signature="e#508#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a5_ridgeRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a8_crossValidation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="e#511#524#0" expanded="true" />
           </folding>
         </state>
       </provider>

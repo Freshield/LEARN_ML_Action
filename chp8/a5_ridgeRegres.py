@@ -23,7 +23,6 @@ def ridgeRegres(xMat, yMat, lam=0.2):
     if linalg.det(denom) == 0.0:
         print('This matrix is singular, cannot do inverse')
         return None
-
     ws = denom.I * (xMat.T * yMat)
     return ws
 
@@ -43,7 +42,6 @@ def ridgeTest(xArr, yArr):
         wMat[i, :] = ws.T
 
     return wMat
-
 
 if __name__ == '__main__':
     from a1_loadDataSet import loadDataSet
