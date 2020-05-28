@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d662c7a-5895-4a46-9fc0-4e308ed7a2f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/a5_ridgeRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/a5_ridgeRegres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../example" beforeDir="false" afterPath="$PROJECT_DIR$/../example" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,24 +13,21 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/chp8$a1_loadDataSet.coverage" NAME="a1_loadDataSet Coverage Results" MODIFIED="1589447800764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp8$a5_ridgeRegres.coverage" NAME="a5_ridgeRegres Coverage Results" MODIFIED="1589526517627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp8$a5_ridgeRegres.coverage" NAME="a5_ridgeRegres Coverage Results" MODIFIED="1589527820832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a7_searchForSet.coverage" NAME="a7_searchForSet Coverage Results" MODIFIED="1589526536330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a3_lwlr.coverage" NAME="a3_lwlr Coverage Results" MODIFIED="1589451488098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a2_standRegres.coverage" NAME="a2_standRegres Coverage Results" MODIFIED="1589448488471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a6_stageWise.coverage" NAME="a6_stageWise Coverage Results" MODIFIED="1589511591291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chp8$a4_abalone.coverage" NAME="a4_abalone Coverage Results" MODIFIED="1589465358862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/chp8$a8_crossValidation.coverage" NAME="a8_crossValidation Coverage Results" MODIFIED="1589526701797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chp8$a8_crossValidation.coverage" NAME="a8_crossValidation Coverage Results" MODIFIED="1589529415112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a7_searchForSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="27" />
-              <folding>
-                <element signature="e#508#518#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2940">
+              <caret line="100" column="27" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -38,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a8_crossValidation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="235">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="e#511#524#0" expanded="true" />
               </folding>
@@ -50,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a5_ridgeRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="840">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -82,8 +79,8 @@
         <option value="$PROJECT_DIR$/a4_abalone.py" />
         <option value="$PROJECT_DIR$/a6_stageWise.py" />
         <option value="$PROJECT_DIR$/a7_searchForSet.py" />
-        <option value="$PROJECT_DIR$/a8_crossValidation.py" />
         <option value="$PROJECT_DIR$/a5_ridgeRegres.py" />
+        <option value="$PROJECT_DIR$/a8_crossValidation.py" />
       </list>
     </option>
   </component>
@@ -101,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,12 +110,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Linkingmed_HT/Codes_HT/Linkingmed_small/L86_train_lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -248,8 +245,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.a8_crossValidation" />
-        <item itemvalue="Python.a7_searchForSet" />
         <item itemvalue="Python.a5_ridgeRegres" />
+        <item itemvalue="Python.a7_searchForSet" />
         <item itemvalue="Python.a6_stageWise" />
         <item itemvalue="Python.a4_abalone" />
       </list>
@@ -268,23 +265,23 @@
       <workItem from="1589446502869" duration="4324000" />
       <workItem from="1589464944091" duration="2357000" />
       <workItem from="1589508267217" duration="15000" />
-      <workItem from="1589508811174" duration="9423000" />
+      <workItem from="1589508811174" duration="11689000" />
+      <workItem from="1589551611893" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16119000" />
+    <option name="totallyTimeSpent" value="18640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="88" y="-2" width="1833" height="1083" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17819591" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18089315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32845187" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32845187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,7 +290,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32845187" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3281768" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,25 +375,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a7_searchForSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="27" />
-          <folding>
-            <element signature="e#508#518#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2940">
+          <caret line="100" column="27" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a5_ridgeRegres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="840">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a8_crossValidation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        <state relative-caret-position="235">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="e#511#524#0" expanded="true" />
           </folding>
