@@ -39,8 +39,10 @@ def binSplitDataSet(dataSet, feature, value):
 def regLeaf(dataSet):
     return mean(dataSet[:, -1])
 
+
 def regErr(dataSet):
     return var(dataSet[:, -1]) * shape(dataSet)[0]
+
 
 def chooseBestSplit(dataSet, leafType=regLeaf, errType=regErr, ops=(1, 4)):
     tolS = ops[0]
@@ -94,8 +96,21 @@ if __name__ == '__main__':
     # mat0, mat1 = binSplitDataSet(testMat, 1, 0.5)
     # print(mat0)
     # print(mat1)
-    myDat = loadDataSet('data/ex00.txt')
-    print(myDat)
-    myMat = mat(myDat)
-    tree = createTree(myMat)
-    print(tree)
+
+    # myDat = loadDataSet('data/ex00.txt')
+    # print(myDat)
+    # myMat = mat(myDat)
+    # tree = createTree(myMat)
+    # print(tree)
+
+    # myDat1 = loadDataSet('data/ex0.txt')
+    # print(myDat1)
+    # myMat1 = mat(myDat1)
+    # tree1 = createTree(myMat1)
+    # print(tree1)
+
+    myDat2 = loadDataSet('data/ex2.txt')
+    print(myDat2)
+    myMat2 = mat(myDat2)
+    tree2 = createTree(myMat2, ops=(10000, 4))
+    print(tree2)
