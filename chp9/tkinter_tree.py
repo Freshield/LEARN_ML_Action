@@ -22,6 +22,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 from compare import *
 
+
 def reDraw(tolS, tolN):
     reDraw.f.clf()
     reDraw.a = reDraw.f.add_subplot(111)
