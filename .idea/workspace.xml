@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d27200-6eae-4628-a815-d5dba644cc6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/chp6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chp6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chp9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chp9/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example" beforeDir="false" afterPath="$PROJECT_DIR$/example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/Ch02/EXTRAS/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/example/Ch02/EXTRAS/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/Ch02/EXTRAS/createDist.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/Ch02/EXTRAS/createDist.py" afterDir="false" />
@@ -138,6 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chp9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -165,19 +166,19 @@
       <updated>1585905925854</updated>
       <workItem from="1585905928652" duration="7000" />
       <workItem from="1585906041914" duration="17000" />
+      <workItem from="1591673305933" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24000" />
+    <option name="totallyTimeSpent" value="30000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="395" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2556724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -190,6 +191,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
