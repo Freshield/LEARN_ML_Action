@@ -57,6 +57,7 @@ def calConf(freqSet, H, supportData, br1, minConf=0.7):
 
     return prunedH
 
+
 if __name__ == '__main__':
     dataSet = loadDataSet()
     print(dataSet)
