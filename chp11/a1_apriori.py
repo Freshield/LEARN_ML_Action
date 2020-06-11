@@ -75,6 +75,7 @@ def aprioriGen(Lk, k):
 
     return retList
 
+
 def apriori(dataSet, minSupport=0.5):
     C1 = createC1(dataSet)
     D = list(map(set, dataSet))
