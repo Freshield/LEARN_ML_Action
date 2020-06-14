@@ -58,8 +58,6 @@ def createTree(dataSet, minSup=1):
 
     reTree = treeNode('Null Set', 1, None)
     for tranSet, count in dataSet.items():
-        print(tranSet)
-        print(count)
         localD = dict()
         for item in tranSet:
             if item in freqItemSet:
@@ -69,7 +67,6 @@ def createTree(dataSet, minSup=1):
             orderedItems = [v[0] for v in sorted(
                 localD.items(), key=lambda p: p[1], reverse=True)]
 
-            print(orderedItems)
             updateTree(orderedItems, reTree, headerTable, count)
 
     return reTree, headerTable
@@ -94,6 +91,7 @@ def updateHeader(nodeToTest, targetNode):
     while nodeToTest.nodeLink != None:
         nodeToTest = nodeToTest.nodeLink
     nodeToTest.nodeLink = targetNode
+
 
 if __name__ == '__main__':
     dataSet = loadSimpDat()
