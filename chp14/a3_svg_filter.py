@@ -18,7 +18,7 @@ from a2_svdRec import *
 from numpy import linalg as la
 
 
-def euclidSim(inA, inB):
+def ecluidSim(inA, inB):
     return 1.0 / (1.0 + la.norm(inA - inB))
 
 
@@ -37,4 +37,12 @@ def cosSim(inA, inB):
 
 
 if __name__ == '__main__':
-    pass
+    myMat = mat(loadExData())
+    print(ecluidSim(myMat[:, 0], myMat[:, 4]))
+    print(ecluidSim(myMat[:, 0], myMat[:, 0]))
+
+    print(cosSim(myMat[:, 0], myMat[:, 4]))
+    print(cosSim(myMat[:, 0], myMat[:, 0]))
+
+    print(pearsSim(myMat[:, 0], myMat[:, 4]))
+    print(pearsSim(myMat[:, 0], myMat[:, 0]))
